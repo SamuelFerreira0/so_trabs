@@ -1,0 +1,79 @@
+1
+mkdir SO/PL/trab3
+cd SO/PL/trab3
+
+2
+head -n24 /etc/services > p24
+ls -l 
+
+3
+tail -n35 /etc/services > u35
+
+4
+ls -l /etc/mime.types
+wc -lwm /etc/mime.types  #numero de linhas, palavras e de caracteres
+
+5
+wc -L /etc/mime.types
+
+6
+wc -lwm /etc/*conf 2> /dev/null
+
+7
+split -l25 /etc/services rc_
+wc -l rc_* #só para ver que todos os ficheiros têm 25 linhas
+
+8
+cat rc_* > rc.services
+diff -s /etc/services rc.services #só para ver que são iguais
+
+9
+touch atest.html
+find / -name "a*html" 2> /dev/null &
+
+10
+find / -name "*conf" -exec cp {} . \; 2> /dev/null &
+
+11
+grep "stddef" /usr/include/*.h
+
+12
+grep "^typedef struct" /usr/include/*.h
+
+13
+grep ";$" /usr/include/*.h
+
+14 
+grep ";$" /usr/include/*.h | wc -l #para ver quantas linhas 
+
+15
+grep ";" /usr/include/*.h | wc -l #para ver quantas linhas
+
+16
+wc -l /usr/include/*.h | tail -n1
+
+17 - ver 1:30 "Realização do Trab3 de SO - Part3" (sudo apt-get install vim)
+cp rc.services myServices
+head -30 rc.services > myServices
+vi myServices
+wc -l myServices #par ver que tem exatamente 30 linhas
+grep "^." myServices > myServicesLines
+
+18
+grep "^.$" /etc/services | wc -l
+
+19
+ls -l /etc/ | grep "^.r..r..r" 
+
+20
+ls -l /dev/ | grep "^d" 
+
+21
+vi padroes #pôr lá dentro o seguinte
+    \<while>
+    \<for>
+    \<until>
+find / -name "*.c" -exec grep -lf padroes {} \; 2> /dev/null
+
+
+	

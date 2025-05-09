@@ -1,0 +1,78 @@
+2
+VAR_1="Sou a primeira variável definida"
+
+3
+echo $VAR_1 
+
+4
+bash
+echo $VAR_1 #nao está definida porque é uma nova shell
+
+5
+exit #para sair da nova shell e voltar à anterior 
+echo $VAR_1
+
+6
+export VAR_1
+bash
+echo $VAR_1
+
+7
+read VAR_2 #equivalente a um scanf
+    Sou a segunda variavel definida
+    
+8
+export VAR_2
+
+9
+exit
+echo $VAR_2
+
+10
+PATH=$PATH:$(pwd) 
+echo $PATH
+
+11
+PS1="\u@\h \w \! \A \$ "
+
+12
+history | tail -n#numero de comandos que aparecem antes das horas
+
+13
+alias listar="ls -l"
+
+14
+alias dir="ls --color" 
+
+15
+ls -la ../../../
+
+16
+cat ../../../.bash_logout
+
+17
+DATA=`date +%F`
+echo $DATA
+
+18
+HORA=`date +%T`
+echo $HORA
+
+19
+cp ../../../.bashrc bashrc_backup
+
+20
+vi ../../../.bashrc
+#abre o .bashrc e pôr o seguinte lá dentro
+    DATA=`date +%F`
+    HORA=`date +%T`
+    clear
+    echo "Hello! $DATA $HORA"
+    sleep 2
+    #:wq para guardar 
+bash #só para ver como funcionou
+exit
+
+21
+cp bashrc_backup ../../../.bashrc
+ls -l #só para confirmar que o ficheiro bashrc foi reposto

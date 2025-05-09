@@ -1,0 +1,25 @@
+ircs-u		6697/tcp		# Internet Relay Chat via TLS/SSL
+bbs		7000/tcp
+afs3-fileserver 7000/udp
+afs3-callback	7001/udp			# callbacks to cache managers
+afs3-prserver	7002/udp			# users & groups database
+afs3-vlserver	7003/udp			# volume location database
+afs3-kaserver	7004/udp			# AFS/Kerberos authentication
+afs3-volser	7005/udp			# volume managment server
+afs3-bos	7007/udp			# basic overseer process
+afs3-update	7008/udp			# server-to-server updater
+afs3-rmtsys	7009/udp			# remote cache manager service
+font-service	7100/tcp	xfs		# X Font Service
+http-alt	8080/tcp	webcache	# WWW caching service
+puppet		8140/tcp			# The Puppet master service
+bacula-dir	9101/tcp			# Bacula Director
+bacula-fd	9102/tcp			# Bacula File Daemon
+bacula-sd	9103/tcp			# Bacula Storage Daemon
+xmms2		9667/tcp	# Cross-platform Music Multiplexing System
+nbd		10809/tcp			# Linux Network Block Device
+zabbix-agent	10050/tcp			# Zabbix Agent
+zabbix-trapper	10051/tcp			# Zabbix Trapper
+amanda		10080/tcp			# amanda backup services
+dicom		11112/tcp
+hkp		11371/tcp			# OpenPGP HTTP Keyserver
+db-lsp		17500/tcp			# Dropbox LanSync Protocol

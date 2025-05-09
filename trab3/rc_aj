@@ -1,0 +1,25 @@
+xmpp-server	5269/tcp	jabber-server	# Jabber Server Connection
+cfengine	5308/tcp
+mdns		5353/udp			# Multicast DNS
+postgresql	5432/tcp	postgres	# PostgreSQL Database
+freeciv		5556/tcp	rptp		# Freeciv gameplay
+amqps		5671/tcp			# AMQP protocol over TLS/SSL
+amqp		5672/tcp
+amqp		5672/sctp
+x11		6000/tcp	x11-0		# X Window System
+x11-1		6001/tcp
+x11-2		6002/tcp
+x11-3		6003/tcp
+x11-4		6004/tcp
+x11-5		6005/tcp
+x11-6		6006/tcp
+x11-7		6007/tcp
+gnutella-svc	6346/tcp			# gnutella
+gnutella-svc	6346/udp
+gnutella-rtr	6347/tcp			# gnutella
+gnutella-rtr	6347/udp
+redis		6379/tcp
+sge-qmaster	6444/tcp	sge_qmaster	# Grid Engine Qmaster Service
+sge-execd	6445/tcp	sge_execd	# Grid Engine Execution Service
+mysql-proxy	6446/tcp			# MySQL Proxy
+babel		6696/udp			# Babel Routing Protocol

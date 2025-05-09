@@ -1,0 +1,53 @@
+2
+cut -d: -f1 /etc/passwd > login
+cut -d: -f2 /etc/passwd > pwd 
+cut -d: -f3 /etc/passwd > userid
+cut -d: -f4 /etc/passwd > groupid
+cut -d: -f5 /etc/passwd > fullname
+cut -d: -f6 /etc/passwd > homedir 
+cut -d: -f7 /etc/passwd > loginshell
+
+3
+paste -d: login userid pwd groupid fullname homedir loginshell > myPwd  
+
+4
+diff myPwd /etc/passwd > diffPwd
+
+5
+patch myPwd diffPwd
+
+6
+diff -s myPwd /etc/passwd
+
+7
+cut -d: -f1,3 /etc/group | sort > grupos
+
+8
+grep "[^a,s,t,r,m,z]$" login
+
+9
+chmod 700 login userid pwd groupid fullname homedir loginshell
+ls -l login userid pwd groupid fullname homedir loginshell
+
+10
+chmod 664 login userid pwd groupid fullname homedir loginshell
+ls -l login userid pwd groupid fullname homedir loginshell
+
+11
+cal -m 4
+
+12
+cal -y
+
+13
+date
+
+16
+sleep 60
+
+17
+expr 5 \* 2 + 4 \* 10
+
+18
+expr \( 5 \* 2 + 4 \* 10 \) / 5
+

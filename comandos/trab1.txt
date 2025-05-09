@@ -1,0 +1,7 @@
+  1  pwd
+  2  mkdir PL
+  3  cd PL
+  4  mkdir trab1
+  5  cd trab1/
+  6  clear
+  7  ls -l

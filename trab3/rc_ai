@@ -1,0 +1,25 @@
+isns		3205/udp			# iSNS Server Port
+iscsi-target	3260/tcp
+mysql		3306/tcp
+ms-wbt-server	3389/tcp
+nut		3493/tcp			# Network UPS Tools
+nut		3493/udp
+distcc		3632/tcp			# distributed compiler
+daap		3689/tcp			# Digital Audio Access Protocol
+svn		3690/tcp	subversion	# Subversion protocol
+suucp		4031/tcp			# UUCP over SSL
+sysrqd		4094/tcp			# sysrq daemon
+sieve		4190/tcp			# ManageSieve Protocol
+epmd		4369/tcp			# Erlang Port Mapper Daemon
+remctl		4373/tcp		# Remote Authenticated Command Service
+f5-iquery	4353/tcp			# F5 iQuery
+ntske		4460/tcp	# Network Time Security Key Establishment
+ipsec-nat-t	4500/udp			# IPsec NAT-Traversal [RFC3947]
+iax		4569/udp			# Inter-Asterisk eXchange
+mtn		4691/tcp			# monotone Netsync Protocol
+radmin-port	4899/tcp			# RAdmin Port
+sip		5060/tcp			# Session Initiation Protocol
+sip		5060/udp
+sip-tls		5061/tcp
+sip-tls		5061/udp
+xmpp-client	5222/tcp	jabber-client	# Jabber Client Connection

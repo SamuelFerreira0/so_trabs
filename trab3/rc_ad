@@ -1,0 +1,25 @@
+codaauth2	370/tcp
+codaauth2	370/udp				# Coda authentication server
+clearcase	371/udp		Clearcase
+ldap		389/tcp			# Lightweight Directory Access Protocol
+ldap		389/udp
+svrloc		427/tcp				# Server Location
+svrloc		427/udp
+https		443/tcp				# http protocol over TLS/SSL
+https		443/udp				# HTTP/3
+snpp		444/tcp				# Simple Network Paging Protocol
+microsoft-ds	445/tcp				# Microsoft Naked CIFS
+kpasswd		464/tcp
+kpasswd		464/udp
+submissions	465/tcp		ssmtp smtps urd # Submission over TLS [RFC8314]
+saft		487/tcp			# Simple Asynchronous File Transfer
+isakmp		500/udp				# IPSEC key management
+rtsp		554/tcp			# Real Time Stream Control Protocol
+rtsp		554/udp
+nqs		607/tcp				# Network Queuing system
+asf-rmcp	623/udp		# ASF Remote Management and Control Protocol
+qmqp		628/tcp
+ipp		631/tcp				# Internet Printing Protocol
+ldp		646/tcp				# Label Distribution Protocol
+ldp		646/udp
+#

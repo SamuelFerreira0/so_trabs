@@ -1,0 +1,25 @@
+nfs		2049/udp			# Network File System
+gnunet		2086/tcp
+gnunet		2086/udp
+rtcm-sc104	2101/tcp			# RTCM SC-104 IANA 1/29/99
+rtcm-sc104	2101/udp
+gsigatekeeper	2119/tcp
+gris		2135/tcp		# Grid Resource Information Server
+cvspserver	2401/tcp			# CVS client/server operations
+venus		2430/tcp			# codacon port
+venus		2430/udp			# Venus callback/wbc interface
+venus-se	2431/tcp			# tcp side effects
+venus-se	2431/udp			# udp sftp side effect
+codasrv		2432/tcp			# not used
+codasrv		2432/udp			# server port
+codasrv-se	2433/tcp			# tcp side effects
+codasrv-se	2433/udp			# udp sftp side effect
+mon		2583/tcp			# MON traps
+mon		2583/udp
+dict		2628/tcp			# Dictionary server
+f5-globalsite	2792/tcp
+gsiftp		2811/tcp
+gpsd		2947/tcp
+gds-db		3050/tcp	gds_db		# InterBase server
+icpv2		3130/udp	icp		# Internet Cache Protocol
+isns		3205/tcp			# iSNS Server Port

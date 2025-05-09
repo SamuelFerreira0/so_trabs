@@ -1,0 +1,25 @@
+zephyr-hm	2104/udp			# Zephyr hostmanager
+iprop		2121/tcp			# incremental propagation
+supfilesrv	871/tcp			# Software Upgrade Protocol server
+supfiledbg	1127/tcp		# Software Upgrade Protocol debugging
+
+#
+# Services added for the Debian GNU/Linux distribution
+#
+poppassd	106/tcp				# Eudora
+moira-db	775/tcp		moira_db	# Moira database
+moira-update	777/tcp		moira_update	# Moira update protocol
+moira-ureg	779/udp		moira_ureg	# Moira user registration
+spamd		783/tcp				# spamassassin daemon
+skkserv		1178/tcp			# skk jisho server port
+predict		1210/udp			# predict -- satellite tracking
+rmtcfg		1236/tcp			# Gracilis Packeten remote config server
+xtel		1313/tcp			# french minitel
+xtelw		1314/tcp			# french minitel
+zebrasrv	2600/tcp			# zebra service
+zebra		2601/tcp			# zebra vty
+ripd		2602/tcp			# ripd vty (zebra)
+ripngd		2603/tcp			# ripngd vty (zebra)
+ospfd		2604/tcp			# ospfd vty (zebra)
+bgpd		2605/tcp			# bgpd vty (zebra)
+ospf6d		2606/tcp			# ospf6d vty (zebra)

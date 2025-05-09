@@ -1,0 +1,25 @@
+# UNIX specific services
+#
+exec		512/tcp
+biff		512/udp		comsat
+login		513/tcp
+who		513/udp		whod
+shell		514/tcp		cmd syslog	# no passwords used
+syslog		514/udp
+printer		515/tcp		spooler		# line printer spooler
+talk		517/udp
+ntalk		518/udp
+route		520/udp		router routed	# RIP
+gdomap		538/tcp				# GNUstep distributed objects
+gdomap		538/udp
+uucp		540/tcp		uucpd		# uucp daemon
+klogin		543/tcp				# Kerberized `rlogin' (v5)
+kshell		544/tcp		krcmd		# Kerberized `rsh' (v5)
+dhcpv6-client	546/udp
+dhcpv6-server	547/udp
+afpovertcp	548/tcp				# AFP over TCP
+nntps		563/tcp		snntp		# NNTP over SSL
+submission	587/tcp				# Submission [RFC4409]
+ldaps		636/tcp				# LDAP over SSL
+ldaps		636/udp
+tinc		655/tcp				# tinc control port

@@ -1,0 +1,51 @@
+1
+mkdir PL/trab2
+cd PL/trab2
+
+2
+ls -l /dev/a*
+
+3
+ls -l /etc/*conf
+
+4
+ls -l /dev/tty{10..19} 
+
+5
+ls -l /dev/tty{15..24} 
+
+6
+cat /etc/services 
+sort /etc/services
+sort /etc/services 1> services
+
+7
+sort -u /etc/services > uniqServices
+diff services uniqServices 
+
+8
+cat > meuPrimeiroFicheiro 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Ctrl+D
+
+9
+cat meuPrimeiroFicheiro >> uniqServices
+
+10
+cat -n uniqServices > numbered
+
+11
+ls -l /etc > etcDir #este comando só manda para dentro do etcDir 
+ls -l /etc  | tee  etcDir | more #este comando "tee" recebe o que está antes e manda para o etcDir e ainda o mostra com o comando "more"
+
+
+

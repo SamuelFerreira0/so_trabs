@@ -1,0 +1,25 @@
+netbios-ns	137/udp				# NETBIOS Name Service
+netbios-dgm	138/udp				# NETBIOS Datagram Service
+netbios-ssn	139/tcp				# NETBIOS session service
+imap2		143/tcp		imap		# Interim Mail Access P 2 and 4
+snmp		161/tcp				# Simple Net Mgmt Protocol
+snmp		161/udp
+snmp-trap	162/tcp		snmptrap	# Traps for SNMP
+snmp-trap	162/udp		snmptrap
+cmip-man	163/tcp				# ISO mgmt over IP (CMOT)
+cmip-man	163/udp
+cmip-agent	164/tcp
+cmip-agent	164/udp
+mailq		174/tcp			# Mailer transport queue for Zmailer
+xdmcp		177/udp			# X Display Manager Control Protocol
+bgp		179/tcp				# Border Gateway Protocol
+smux		199/tcp				# SNMP Unix Multiplexer
+qmtp		209/tcp				# Quick Mail Transfer Protocol
+z3950		210/tcp		wais		# NISO Z39.50 database
+ipx		213/udp				# IPX [RFC1234]
+ptp-event	319/udp
+ptp-general	320/udp
+pawserv		345/tcp				# Perf Analysis Workbench
+zserv		346/tcp				# Zebra server
+rpc2portmap	369/tcp
+rpc2portmap	369/udp				# Coda portmapper
