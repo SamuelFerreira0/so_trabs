@@ -27,5 +27,6 @@ ver nos pcs ou no git
 vi exer65_1.sh
 ver nos pcs ou no git
 
+21:16 part2
 
 
