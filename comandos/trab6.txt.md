@@ -17,15 +17,15 @@ chmod 754 myfirst1.sh
 
 4
 vi exer64.sh
-ver ao ASUS
+ver nos pcs ou no git
 
 5
 vi exer65.sh
-ver ao ASUS
+ver nos pcs ou no git
 
 6
 vi exer65_1.sh
-ver ao ASUS
+ver nos pcs ou no git
 
 
 
