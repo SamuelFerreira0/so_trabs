@@ -27,6 +27,27 @@ ver nos pcs ou no git
 vi exer65_1.sh
 ver nos pcs ou no git
 
-21:16 part2
+7
+vi exer66.sh
+ver nos pcs ou no git
+
+8
+vi exer67.sh
+ver nos pcs ou no git
+
+9
+vi exer68.sh
+ver nos pcs ou no git
 
 
+10
+vi exer69.sh
+ver nos pcs ou no git
+
+11
+vi exer610.sh
+ver nos pcs ou no git
+
+12
+vi exer611.sh
+ver nos pcs ou no git
