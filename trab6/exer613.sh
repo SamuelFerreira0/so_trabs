@@ -7,6 +7,7 @@ MyCurDir=$(pwd) #guardar o pwd para poder voltar para ele mais tarde
 
 cd "$1 "
 
+#vê todos os ficheiros no pwd e classifica-os
 for FICH in *
 do
     if [ -f "$FICH" ]; then

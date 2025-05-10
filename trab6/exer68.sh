@@ -8,8 +8,9 @@ echo "1: Deseja listar o diretório atual na forma longa? (ls -l)"
 echo "2: Deseja listar o diretório atual na forma longa incluindo os ficheiros escondidos?(ls -la)"
 echo "3: Deseja listar o diretório atual todos os ficheiros .c?(ls *.c)"
 
-read OP
+read OP #guarda a opçao escolhida em OP
 
+#é um simples case que, conforme a opção escolhida, executa o comando escolhido
 case $OP in
 	"1") ls -l
 		;;

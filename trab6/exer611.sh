@@ -7,6 +7,8 @@ MIN=20
 MAX=50
 
 echo "Os números pares entre $MIN e $MAX são:"
+
+#enquanto o MIN for <= ao MAX repete o ciclo
 while [ $MIN -le $MAX ]
 do
     echo "$MIN"

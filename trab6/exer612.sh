@@ -7,6 +7,8 @@ MIN=51
 MAX=99
 
 echo "Os números ímpares entre $MAX e $MIN são:"
+
+#enquanto MAX for >= que MIN repete o ciclo
 while [ $MAX -ge $MIN ]
 do
     echo "$MAX"

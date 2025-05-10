@@ -9,6 +9,7 @@ read STR1
 echo "Escreva outra string"
 read STR2
 
+#vê se as duas strings são iguais
 if [ $STR1 = $STR2 ]
 	then
 		echo "As frases \"$STR1\" e \"$STR2\" são iguais"
